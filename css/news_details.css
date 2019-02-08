@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.content .main .text{width: 1060px;text-align: center;}
+.content .main .text h2{font-size: 18px;color:#121212;}
+.content .main .text span{display:block;font-size: 12px;color:#121212;margin:14px 0px 0px 16px;}
+.content .main .text img{padding: 20px 0px;}
+.content .main .text p{width: 630px;margin: 0 auto;text-align: justify;text-indent: 2em;font-size: 14px;color:#121212;line-height: 36px;}
+.content .flip{width:1120px;margin:0 auto;padding:20px 40px 80px; }

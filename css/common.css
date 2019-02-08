@@ -1,0 +1,88 @@
+@charset "UTF-8";
+html{background:#fff;overflow:auto;}
+body{min-width:1200px;font:12px/18px "Microsoft Yahei";color:#000; font-weight:normal; -webkit-font-smoothing: antialiased; }
+a{color:#000; text-decoration:none; cursor:pointer; outline: 0 none;}
+a:hover{ text-decoration:none;color:#000;}
+a:focus{-moz-outline-style:none; border:0px;blr:expression(this.onFocus=this.blur());}
+:focus{ outline: none; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0; padding:0; border:0 none;}
+header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcaption{display:block}
+ol,li,ul,dl,dt,dd{list-style:none;}
+fieldset,img {border:0}
+button,submit,input,select { vertical-align:middle;}
+button,submit { cursor:pointer;}
+textarea{ resize: none; overflow: hidden; }
+input,textarea{background: none;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:lighter;}
+table{border-collapse:collapse; border-spacing:0;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+select,button{font-family:inherit; font-size:inherit; font-weight:inherit; outline-style:none; outline-width:0pt; padding: 0; margin: 0;}
+b,em,i{display:inline-block; font-weight:normal; font-style:normal;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;} 
+.clearfix{ zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+.header{ width:100%;height:100px;background: url(../img/header_bg.jpg) no-repeat center top; }
+.header .main{position: relative; width: 1200px;margin:0 auto;}
+.logo{ position: absolute; top: 7px;left: 30px;}
+.logo img{ display: block; width:68px;height: 88px; }
+.header .top{ height: 50px;}
+.header .top span{float: left;padding-left:115PX; font-size: 14px;color: #121212;line-height: 50px; }
+.header .top form{ position:relative;float: right; width: 173px;height: 28px;margin:10px 30px 0px 0px;padding-left: 5px; border:1px solid #121212;border-radius:12px;behavior:url(js/PIE.htc); }
+.header .top form .text{ width: 140px;height: 28px; font-size: 12px;color: #131313;line-height: 28px;}
+.header .top form .submit{ cursor: pointer; width: 23px;height: 28px; background: url(../img/icon_search.png) no-repeat left center;}
+.header .nav{height: 50px;}
+.header .nav ul{text-align: center;font-size: 0;}
+.header .nav li{display: inline-block;height: 48px;margin:0px 10px; }
+.header .nav li a{display: block;padding:0px 20px;border:1px solid transparent;font-size: 14px;color: #121212;text-align: center;line-height: 48px;}
+.header .nav li a:hover{border:1px solid #ff3636;background-color:#ffe7c8;color: #ff3636;}
+.header .nav .cuttent a{border:1px solid #ff3636;background-color:#ffe7c8;color: #ff3636;}
+
+.banner{overflow: hidden;}
+.banner .slidebox{width: 1920px;height: 600px;position: relative;left: 50%;margin-left: -960px;}
+.banner .slidebox .pic img{display:block;width: 1920px;height: 600px;}
+.banner .slidebox .btn{width:100%;position: absolute;left: 0px;bottom:40px;}
+.banner .slidebox .btn ul{text-align: center;font-size: 0px;}
+.banner .slidebox .btn ul li{cursor: pointer;display: inline-block;width:20px;height:20px;background-color: #fee5bc;margin:0px 20px;border-radius: 50%;behavior:url(js/PIE.htc);position:relative;}
+.banner .slidebox .btn ul li.on,.banner .slidebox .btn ul li:hover{background-color: #ff3636;}
+.banner .slidebox > a{display:block;position: absolute;width: 20px;height: 78px;text-align: center;line-height: 50px;}
+.banner .prev{left:305px; top:285px; background: url(../img/banner_prev.png);}
+.banner .next{right:305px; top:285px; background: url(../img/banner_next.png);}
+
+.footer{width: auto;height: 114px;padding-top:36px;text-align: center;background: url(../img/footer_bg.jpg) no-repeat center top;}
+.footer ul{clear: both;font-size: 0px;font-size: 12px;color: #111;padding-bottom: 12px;}
+.footer ul li{display: inline-block;position: relative;padding:0px 8px;}
+.footer ul li:before{content: "";display: block;position:absolute;top:3px;left:-4px;height: 13px; border-left: 1px solid #111;border-right: 1px solid #c3bbad;}
+.footer ul li:first-child:before{border:0px none;}
+.footer ul li a{font-family: "Microsoft Yahei"; font-size: 12px;color: #111;}
+
+
+.location{width: 1200px;height:100px;margin:0 auto;line-height: 100px;}
+.location ul{padding-left: 40px;}
+.location li{float: left;font-family: "Microsoft Yahei";font-size: 14px;color: #080404;}
+.location li a{font-family: "Microsoft Yahei";font-size: 14px;color: #080404;}
+.location li a:hover,.location .current{color: #ff3636;}
+
+.content .main{width: 1200px;margin:0 auto;}
+.main .sidebar{width: 98px;height:auto;margin-left:20px;border:1px solid #ff3636;text-align: center;background-color: #fee5bc;}
+.main .sidebar h2{width:98px;height:42px;padding-top:6px;font-size: 16px;color: #ff3636;border-bottom: 1px solid #ff3636;}
+.main .sidebar span{display: block;font-size: 16px;color: #ff3636;text-transform: capitalize;}
+.main .sidebar ul li{height: 48px;line-height: 48px;border-top: 1px solid #ff3636;}
+.main .sidebar ul li:first-child{border-top:0px none;}
+.main .sidebar ul li a{display:block;font-size: 16px;color: #080404;}
+.main .sidebar ul li a:hover,.main .sidebar ul .current{color:#ff3636;}
+
+.page ul{text-align: center;font-size: 0px;}
+.page li{ display: inline-block;width: 33px;height: 13px;font-size: 12px;color: #121212;line-height: 13px;vertical-align: middle;}
+.page li a{display: block;font-size: 12px;color: #121212;border:1px solid transparent;line-height: 13px;}
+.page li a:hover,.page .on a{border:1px solid #ff3636;background-color: #fee5bc;color: #ff3636;}
+.page .prev{width: 74px;}
+.page .next{width: 74px;}
+
+.flip{clear:both;}
+.flip a{font-size: 12px;color: #121212;}
+.flip a:hover{color: #ff3636;}
+.flip .prev{float: left;}
+.flip .next{float: right;}

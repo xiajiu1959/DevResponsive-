@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.content .main .text{width: 944px;padding-right: 70px;}
+.content .main .text li{cursor: pointer; width: 904px;height: 200px;background: #fee5bc;padding:5px 52px 5px 20px; margin-bottom: 22px;font-size: 12px;color: #121212;text-align: center;behavior:url(js/PIE.htc);position:relative;}
+.content .main .text li:before{content: "";display: block;width:0px;height:0px;border-top:10px solid transparent;border-bottom:10px solid transparent;border-right:10px solid #fee5bc;position:absolute;top: 95px;left: 310px;}
+.content .main .text li img{float: left;padding-right: 42px;}
+.content .main .text li span{display:none;font-size: 12px;color: #121212;padding-top: 25px;text-align: left;}
+.content .main .text li h2{padding:95px 0px 47px;}
+.content .main .text li h2 a{display:block;font-size: 18px;color: #121212;line-height: 18px;}
+.content .main .text li p{display: none;padding-bottom: 24px;font-size: 12px;color: #121212;text-align: left;}
+.content .main .text li .more{clear: both; display: inline-block; width: 98px;height: 28px;border:1px solid #4c4c4c; line-height: 30px;background: #fee5bc;text-align: center;font-size: 12px;color: #121212;/*behavior:url(js/PIE.htc);position:relative;*/}
+.content .main .text li:hover{box-shadow: 3px 3px 5px #d3af7a;}
+.content .main .text li:hover span{display: block;color: #ff3636;}
+.content .main .text li:hover h2{padding: 15px 0 24px;}
+.content .main .text li:hover h2 a{font-size: 14px; color: #ff3636;}
+.content .main .text li:hover p{display: block;color: #ff3636;}
+.content .main .text li:hover .more{margin-left: 430px;color: #ff3636;border:1px solid #fee5bc;box-shadow: 3px 3px 5px #d3af7a;text-shadow:3px 3px 5px #f4a185; }
+.content .page{margin-bottom: 100px;}

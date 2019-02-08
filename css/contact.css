@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.content .main{}
+.content .main form dl{width: 870px;margin: 0 auto;}
+.content .main form .input{display:inline-block;width: 278px;height: 23px; padding: 5px;border: 1px solid #ff3636;border-radius: 36px;vertical-align: bottom;}
+.content .main form .other{width: 790px;}
+.content .main form .textarea{display:inline-block;width: 778px; height:208px; padding: 10px 10px;border: 1px solid #ff3636;border-radius: 36px;vertical-align: top;margin-top: 10px;}
+.content .main form label{display:inline-block; width:67px;height: 30px;padding-top:28px;background: url(../img/contact_bg.png) no-repeat;text-align: center;font-size: 18px;color: #ff3636;}
+.content .main form #mail{width: 780px;}
+.content .main form input{ background: #fff; width: 278px;height: 23px;line-height:18px;  vertical-align: bottom;}
+.content .main form textarea{ background: #fff; width: 768px; height:198px;vertical-align: top;background: transparent;}

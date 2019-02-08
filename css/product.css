@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.content{padding-bottom: 82px;}
+.content .main .text{width: 964px;padding-right: 54px;overflow: hidden;}
+.content .main .text ul{width: 1056px;}
+.content .main .text li{float:left;font-size: 0px;width:288px;height:295px;margin: 0px 64px 50px 0px;padding-top: 76px;  background: url(../img/pro_list_bg.png) no-repeat;text-align: center;}
+.content .main .text li a{display: block;}
+.content .main .text li img{width: 200px;height: 220px; }
+.content .main .text li span{display: inline-block;width: 200px;height: 30px; border:1px solid #fff;font-size: 14px;color: #fff;line-height: 30px;}
+.content .main .text li:hover span{width:218px;height:48px;border:1px solid transparent;background: url(../img/pro_bg_hover.png) no-repeat center -4px;color:#1a1712;}

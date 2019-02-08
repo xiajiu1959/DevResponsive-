@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.content .main .text{width: 964px;padding-right: 66px;}
+.content .main .text h2{font-size: 24px;color: #080404;text-align: center;padding-bottom: 36px;line-height: 24px;}
+.content .main .text p{font-size: 14px;color: #080404;line-height: 36px;text-indent: 2em;text-align: justify;}
+
+.main .bottom h2{clear: both;padding: 42px 0px 36px ; font-size: 24px;color: #121212;line-height: 24px;text-align: center;}
+.main .bottom .pic{width: 1200px;height:147px;overflow: hidden;position: relative;}
+.content .bottom ul{position: absolute;}
+.content .bottom ul li{float: left;width: 400px;height: 147px;}
+.content .bottom ul li img{display: block;width: 400px;height: 147px;}
+.content .bottom .prev{position: absolute;top: 54px;left: 20px; display: block;width: 10px;height: 40px;background: url(../img/about_prev.png);}
+.content .bottom .next{position: absolute;top: 54px;right: 20px; display: block;width: 10px;height: 40px;background: url(../img/about_next.png);}
+.content .bottom ol{text-align: center;font-size: 0px;padding:22px 0px 105px;}
+.content .bottom ol li{cursor: pointer;margin: 0 7px;  display:inline-block;width: 16px;height: 16px;background-color: #fee5bc;border-radius: 50%;behavior:url(js/PIE.htc);position:relative;}
+.content .bottom ol .on,.content .bottom ol li:hover{background-color: #ff3636;}

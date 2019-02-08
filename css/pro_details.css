@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.content .main{padding-bottom: 102px;}
+.content .main .text{width: 964px;padding-right: 54px;}
+.content .main .text .left{width: 400px;position: relative;}
+.content .main .text .left img{display: block;}
+.content .main .text .left:before{content: "";display: block;width: 370px;height:420px;border: 1px solid #ff3636;position: absolute;top: 12px;left: 14px;}
+.content .main .text h2{position: relative; float: right;height:380px;padding-left: 18px;margin-left: 34px; text-align: center; writing-mode: vertical-rl;writing-mode: tb-rl;font-size: 18px;color: #121212;line-height: 30px;}
+.content .main .text h2:before{content: "";display: block;height:160px;border-left: 2px solid #ff3636;position: absolute;top: 20px;left: 0px;}
+.content .main .text h2:after{content: "";display: block;height:160px;border-left: 2px solid #ff3636;position: absolute;top: 240px;left: 0px;}
+.content .main .text .right{width:430px;}
+.content .main .text .right img{padding-top: 50px;}
+.content .main .text p{float:right;padding-top: 88px; writing-mode: vertical-rl;writing-mode: tb-rl;font-size: 18px;color: #121212;line-height: 30px;}
+.content .main .flip{padding:20px 40px 0px; }
